@@ -1,0 +1,56 @@
+Slot 0:
+Metadata version: 10.0
+Metadata size: 592 bytes
+Metadata max size: 65536 bytes
+Metadata slot count: 2
+Header flags: none
+Partition table:
+------------------------
+  Name: system
+  Group: emulator_dynamic_partitions
+  Attributes: readonly
+  Extents:
+    0 .. 1563119 linear super 2048
+------------------------
+  Name: system_ext
+  Group: emulator_dynamic_partitions
+  Attributes: readonly
+  Extents:
+    0 .. 256663 linear super 1566720
+------------------------
+  Name: product
+  Group: emulator_dynamic_partitions
+  Attributes: readonly
+  Extents:
+    0 .. 2750111 linear super 1824768
+------------------------
+  Name: vendor
+  Group: emulator_dynamic_partitions
+  Attributes: readonly
+  Extents:
+    0 .. 168655 linear super 4575232
+------------------------
+Super partition layout:
+------------------------
+super: 2048 .. 1565168: system (1563120 sectors)
+super: 1566720 .. 1823384: system_ext (256664 sectors)
+super: 1824768 .. 4574880: product (2750112 sectors)
+super: 4575232 .. 4743888: vendor (168656 sectors)
+------------------------
+Block device table:
+------------------------
+  Partition name: super
+  First sector: 2048
+  Size: 3229614080 bytes
+  Flags: none
+------------------------
+Group table:
+------------------------
+  Name: default
+  Maximum size: 0 bytes
+  Flags: none
+------------------------
+  Name: emulator_dynamic_partitions
+  Maximum size: 3221225472 bytes
+  Flags: none
+------------------------
